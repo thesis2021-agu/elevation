@@ -1,12 +1,10 @@
-name: example-environment
+name: osmnx-examples
 channels:
   - conda-forge
 dependencies:
-  - python
-  - numpy
-  - pip
-  - pip:
-    - osmnx
-    - gdal
-    - fiona
-    - matplotlib
+  - descartes
+  - jupyterlab
+  - osmnx=1.1.2
+  - pillow
+  - python=3.9.*
+  - python-igraph
